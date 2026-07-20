@@ -32,10 +32,10 @@ color:#333;
 font-weight:bold;
 }
 
-.logo{
-font-size:28px;
-font-weight:bold;
-color:#7B1FA2;
+.logo img{
+    height:70px;
+    width:auto;
+    display:block;
 }
 
 .hero{
