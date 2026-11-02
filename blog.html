@@ -1,82 +1,93 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-BL1N2NW4ZD');
+    </script>
 
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-
-gtag('config', 'G-BL1N2NW4ZD');
-</script>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Iron-Rich Recipes</title>
-
-<link rel="stylesheet" href="blog.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron-Rich Recipes</title>
+    <link rel="stylesheet" href="blog.css">
 </head>
+
 <body>
 
 <header>
+    <h1>Iron-Rich Recipe Blog</h1>
 
-<h1>Iron-Rich Recipe Blog</h1>
+    <p>
+        Discover delicious recipes that contain nutrients important
+        for maintaining healthy iron levels.
+    </p>
 
-<p>
-Discover delicious recipes that contain nutrients important for maintaining healthy iron levels.
-</p>
-
-<a href="index.html" class="home-btn">← Back to Home</a>
-
+    <a href="index.html" class="home-btn">← Back to Home</a>
 </header>
 
 <main class="recipe-grid">
 
-<div class="recipe-card">
+    <div class="recipe-card">
+        <img
+            src="images/spinach-salad.jpg"
+            alt="Spinach and strawberry salad"
+            class="recipe-image"
+            loading="lazy"
+        >
 
-<img src="images/spinach-salad.jpg" alt="Spinach Salad">
+        <h2>Spinach & Strawberry Salad</h2>
 
-<h2>Spinach & Strawberry Salad</h2>
+        <p>
+            A refreshing salad packed with iron-rich spinach and
+            vitamin C-rich strawberries to help your body absorb iron.
+        </p>
 
-<p>
-A refreshing salad packed with iron-rich spinach and vitamin C-rich strawberries to help your body absorb iron.
-</p>
+        <a href="recipe1.html">Read Recipe</a>
+    </div>
 
-<a href="recipe1.html">Read Recipe</a>
+    <div class="recipe-card">
+        <img
+            src="images/lentil-soup.jpg"
+            alt="Hearty lentil soup"
+            class="recipe-image"
+            loading="lazy"
+        >
 
-</div>
+        <h2>Hearty Lentil Soup</h2>
 
-<div class="recipe-card">
+        <p>
+            Lentils provide plant-based iron and fiber, making this
+            soup both nutritious and filling.
+        </p>
 
-<img src="images/lentil-soup.jpg" alt="Lentil Soup">
+        <a href="recipe2.html">Read Recipe</a>
+    </div>
 
-<h2>Hearty Lentil Soup</h2>
+    <div class="recipe-card">
+        <img
+            src="images/smoothie.jpg"
+            alt="Berry smoothie"
+            class="recipe-image"
+            loading="lazy"
+        >
 
-<p>
-Lentils provide plant-based iron and fiber, making this soup both nutritious and filling.
-</p>
+        <h2>Iron Boost Smoothie</h2>
 
-<a href="recipe2.html">Read Recipe</a>
+        <p>
+            A smoothie featuring spinach, berries, and fortified
+            ingredients for a quick, iron-rich breakfast.
+        </p>
 
-</div>
-
-<div class="recipe-card">
-
-<img src="images/smoothie.jpg" alt="Berry Smoothie">
-
-<h2>Iron Boost Smoothie</h2>
-
-<p>
-A smoothie featuring spinach, berries, and fortified ingredients for a quick, iron-rich breakfast.
-</p>
-
-<a href="recipe3.html">Read Recipe</a>
-
-</div>
+        <a href="recipe3.html">Read Recipe</a>
+    </div>
 
 </main>
 
 </body>
 </html>
+
